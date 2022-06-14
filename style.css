@@ -1,0 +1,31 @@
+body{
+    background-color: #7D6C46;
+    /* background:url(../images/cover.JPG) center no-repeat fixed; */
+    background:url(../images/cover.mp4) center no-repeat fixed;
+    background-size: cover;
+    
+}
+html {
+    color: white;
+    
+    font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+li{
+    font-family: 'Reggae One', cursive;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    text-shadow: 3px 3px 1px black
+}
+
+.video_back{
+    position: fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height:100%;
+}
