@@ -1,16 +1,7 @@
 var myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/DSCF3110.JPG') {
-      myImage.setAttribute ('src','images/DSCF3111.JPG');
-    } else {
-      myImage.setAttribute ('src','images/DSCF3110.JPG');
-    }
-}
-
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
+
 
 function setUserName() {
     let myName = prompt('Please enter your name.');
