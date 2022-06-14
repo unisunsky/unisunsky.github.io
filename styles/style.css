@@ -22,3 +22,10 @@ h1{
     text-shadow: 3px 3px 1px black
 }
 
+.video_back{
+    position: fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height:100%;
+}
