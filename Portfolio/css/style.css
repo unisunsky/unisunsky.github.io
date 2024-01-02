@@ -1,0 +1,61 @@
+@charset "UTF-8"; /* 國際萬用編碼，一定要放第一行 */
+
+/* 字體設定 */
+/* font-family: 'Oswald', sans-serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/* font-family: 'Yusei Magic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/* font-family: 'Zen Old Mincho', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+/* font-family: 'Mochiy Pop P One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* font-family: 'Yuji Boku', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit; /* 清除字體所有預設值 */
+    box-sizing: border-box; /* (RWD必加)不累加border & padding */
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#topbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 90px 40px;
+    align-items: center;  /* 副軸水平齊右 */
+}
+nav ul{
+    display: flex;
+    flex-direction: row; /* 主軸水平排列 */
+    list-style: none; /* 把ul預設的點點拿掉 */
+
+}
+nav a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    padding: 5px 50px;
+    color: aliceblue;
+}
+
+nav li:hover{
+    border-bottom: 3px solid white; /* 邊框樣式 */
+    background-color:rgba(219, 193, 193, 0.6); /* RGB Alpha */
+}
+video{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

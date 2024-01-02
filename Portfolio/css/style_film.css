@@ -1,0 +1,147 @@
+@charset "UTF-8"; /* 國際萬用編碼，一定要放第一行 */
+
+/* 字體設定 */
+/* font-family: 'Oswald', sans-serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/* font-family: 'Yusei Magic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/* font-family: 'Zen Old Mincho', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+/* font-family: 'Mochiy Pop P One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* font-family: 'Yuji Boku', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+/* font-family: 'Sawarabi Gothic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit; /* 清除字體所有預設值 */
+    box-sizing: border-box; /* (RWD必加)不累加border & padding */
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+}
+#topbar{
+    left: 0;
+    top: 0;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 90px 40px;
+    align-items: center; 
+}
+nav ul{
+    display: flex;
+    flex-direction: row; /* 主軸水平排列 */
+    list-style: none; /* 把ul預設的點點拿掉 */
+
+}
+nav a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    padding: 5px 50px;
+    color: aliceblue;
+}
+
+nav li:hover{
+    border-bottom: 3px solid white; /* 邊框樣式 */
+    background-color:rgba(219, 193, 193, 0.6); /* RGB Alpha */
+}
+
+.work{
+    width: 95%;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: start;
+
+
+
+}
+
+.film{
+    width: 34%;
+    height: 450px;
+    padding: 5pt 20pt;
+    margin: 10pt;
+    background-color: rgba(206, 200, 200, 0.6);
+    display: flex;
+    flex-direction: column-reverse;
+}
+#e11206{
+    background-image: url(../images/film_doc_11206.JPG);
+    background-size: cover;
+    background-position: center;
+    
+}
+#e11204{
+    background-image: url(../images/film_doc_11204.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e11112{
+    background-image: url(../images/film_doc_11112.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e11101{
+    background-image: url(../images/film_doc_11101.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10909-2{
+    background-image: url(../images/film_doc_10909-2.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10909-1{
+    background-image: url(../images/film_doc_10909-1.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10908{
+    background-image: url(../images/film_doc_10908.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10903{
+    background-image: url(../images/film_doc_10903.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10901{
+    background-image: url(../images/film_doc_10901.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10812{
+    background-image: url(../images/film_doc_10812.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#e10807{
+    background-image: url(../images/film_doc_10807.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.film_name{
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
+    font-family: 'Sawarabi Gothic', sans-serif;    
+    font-weight: 700;
+    letter-spacing: 2pt;
+    font-size: 35px;
+    color: #ffffff;
+
+
+}
